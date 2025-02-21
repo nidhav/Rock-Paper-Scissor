@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 250%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img_cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    height: 50%;
+}
+
+.img{
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 15%;
+    width: 15%;
+}
+
+.score{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3{
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 3.5%;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sc1,.sc2{
+   
+    margin-top: 3.5%;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.re_st{
+    margin-top: 2%;
+    margin-left: 45%;
+    width: 10%;
+}
+
+.msgc {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.msgy {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 90%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.img:hover{
+   
+    opacity: 0.6;
+    
+}
+
+@media (max-width:1071px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 45%;
+        width: 13%;
+    }
+}
+
+@media (max-width:820px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 43%;
+        width: 15%;
+    }
+}
+
+@media (max-width:704px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 43%;
+        width: 18%;
+    }
+}
+
+@media (max-width:600px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 43%;
+        width: 20%;
+    }
+}
+
+@media (max-width:542px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 38%;
+        width: 24%;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media (max-width:450px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 36%;
+        width: 30%;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 160%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media (max-width:360px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 36%;
+        width: 34%;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 140%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media (max-width:310px) {
+    .re_st{
+        margin-top: 2%;
+        margin-left: 34%;
+        width: 40%;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 120%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+
